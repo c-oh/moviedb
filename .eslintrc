@@ -1,0 +1,25 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-alert": 0,
+    "no-bitwise": 0,
+    "camelcase": 1,
+    "curly": 1,
+    "eqeqeq": 1,
+    "no-console": 1,
+    "no-eq-null": 0,
+    "guard-for-in": 1,
+    "no-unused-vars" : 1,
+    "no-undef" : 1,
+    "no-empty": 1,
+    "quotes": [ 1, "single"]
+  },
+  "globals": {
+    "jQuery": false,
+    "$": true,
+    "_": false
+  },
+  "env": {
+    "browser": true
+  }
+}
